@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" width="1200" height="52" role="img" aria-label="06 CURRENTLY">
+<defs><linearGradient id="s-a" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f6c75b"/><stop offset="1" stop-color="#e09b25"/></linearGradient>
+<style>.m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+@keyframes sh{0%,100%{opacity:.25}50%{opacity:.9}}.sh{animation:sh 3s ease-in-out infinite}</style></defs>
+<rect x="0" y="16" width="3" height="22" fill="url(#s-a)"/>
+<text x="20" y="34" class="m" font-size="12" letter-spacing="2" fill="#5a6475">06</text>
+<text x="62" y="34" class="m" font-size="16" letter-spacing="5" font-weight="700" fill="#e8edf4">CURRENTLY</text>
+
+<path d="M0 47 H1200" stroke="#141b25"/>
+<path class="sh" d="M0 47 H260" stroke="#f0b429" stroke-opacity="0.5"/>
+</svg>

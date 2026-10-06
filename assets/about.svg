@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="What I build and how I work">
+<defs>
+  <linearGradient id="i-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090c13"/><stop offset="1" stop-color="#05070c"/></linearGradient>
+  <linearGradient id="a-f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e09b25"/><stop offset="1" stop-color="#f6c75b"/></linearGradient>
+  <linearGradient id="a-c" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3f9fb4"/><stop offset="1" stop-color="#58c7d8"/></linearGradient>
+  <linearGradient id="i-trace" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#58c7d8" stop-opacity="0"/><stop offset="0.3" stop-color="#58c7d8" stop-opacity="1"/>
+    <stop offset="0.7" stop-color="#8fe3ef" stop-opacity="1"/><stop offset="1" stop-color="#58c7d8" stop-opacity="0"/></linearGradient>
+  <pattern id="i-grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0 H0 V30" fill="none" stroke="#101722" stroke-width="1"/></pattern>
+  <filter id="i-b" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>.m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+  @keyframes bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  .bar{transform-origin:left center;animation:bar 1.5s cubic-bezier(.2,.8,.2,1) forwards}
+  @keyframes dot{0%,100%{opacity:.3}50%{opacity:1}}.dot{animation:dot 2.2s ease-in-out infinite}</style>
+</defs>
+<rect width="1200" height="300" rx="10" fill="url(#i-bg)" stroke="#161e2a"/>
+<rect width="1200" height="300" rx="10" fill="url(#i-grid)" opacity="0.5"/>
+<path d="M0 44 H1200" stroke="#141b25"/>
+<g class="m" font-size="11" letter-spacing="2.4">
+  <circle cx="24" cy="26" r="3.4" fill="#58c7d8" class="dot"/>
+  <text x="42" y="30" fill="#8b96a8">cat ~/.profile</text>
+  <text x="1176" y="30" text-anchor="end" fill="#3f4a5a">BUILDING SINCE 2024</text>
+</g>
+<g transform="translate(40,78)">
+  <text class="m" font-size="10.5" letter-spacing="3" fill="#4e5a6b">WHERE THE TIME GOES</text>
+  <g transform="translate(0,10)">
+    <text y="14" class="m" font-size="12" fill="#cfd8e4">Backend APIs &amp; data modelling</text>
+    <rect x="0" y="22" width="300" height="5" rx="2.5" fill="#111926"/>
+    <rect class="bar" x="0" y="22" width="282" height="5" rx="2.5" fill="url(#a-f)" style="animation-delay:0.0s"/>
+    <text y="50" class="m" font-size="12" fill="#cfd8e4">AI agent orchestration</text>
+    <rect x="0" y="58" width="300" height="5" rx="2.5" fill="#111926"/>
+    <rect class="bar" x="0" y="58" width="264" height="5" rx="2.5" fill="url(#a-f)" style="animation-delay:0.1s"/>
+    <text y="86" class="m" font-size="12" fill="#cfd8e4">Frontend (React / Next.js)</text>
+    <rect x="0" y="94" width="300" height="5" rx="2.5" fill="#111926"/>
+    <rect class="bar" x="0" y="94" width="240" height="5" rx="2.5" fill="url(#a-f)" style="animation-delay:0.2s"/>
+    <text y="122" class="m" font-size="12" fill="#cfd8e4">Containers &amp; orchestration</text>
+    <rect x="0" y="130" width="300" height="5" rx="2.5" fill="#111926"/>
+    <rect class="bar" x="0" y="130" width="216" height="5" rx="2.5" fill="url(#a-c)" style="animation-delay:0.3s"/>
+    <text y="158" class="m" font-size="12" fill="#cfd8e4">Security tooling &amp; detection</text>
+    <rect x="0" y="166" width="300" height="5" rx="2.5" fill="#111926"/>
+    <rect class="bar" x="0" y="166" width="204" height="5" rx="2.5" fill="url(#a-c)" style="animation-delay:0.4s"/>
+  </g>
+</g>
+<path d="M640 78 V262" stroke="#141b25"/>
+<g transform="translate(676,78)">
+  <text class="m" font-size="10.5" letter-spacing="3" fill="#4e5a6b">HOW I WORK</text>
+  <g class="m" font-size="12.5">
+    <g transform="translate(0,34)"><text fill="#f0b429">01</text><text x="34" fill="#dbe3ec">Model the data first.</text><text x="210" fill="#73808f">Routes follow.</text></g>
+    <g transform="translate(0,66)"><text fill="#f0b429">02</text><text x="34" fill="#dbe3ec">Small services that compose.</text></g>
+    <g transform="translate(0,98)"><text fill="#f0b429">03</text><text x="34" fill="#dbe3ec">Validate at the edge,</text><text x="200" fill="#73808f">fail loudly.</text></g>
+    <g transform="translate(0,130)"><text fill="#f0b429">04</text><text x="34" fill="#dbe3ec">A human approves what matters.</text></g>
+    <g transform="translate(0,162)"><text fill="#f0b429">05</text><text x="34" fill="#dbe3ec">If it isn't documented, it isn't done.</text></g>
+  </g>
+</g>
+<g transform="translate(0,282)">
+  <path d="M0 0 H1200" stroke="#121924"/>
+  <path d="M0 0 Q 50 -10 100 0 T 200 0 Q 250 -16 300 0 T 400 0 Q 450 -7 500 0 T 600 0 Q 650 -13 700 0 T 800 0 Q 850 -9 900 0 T 1000 0 Q 1050 -15 1100 0 T 1200 0"
+        fill="none" stroke="url(#i-trace)" stroke-width="1.6" opacity="0.8" filter="url(#i-b)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-200 0" dur="3.4s" repeatCount="indefinite"/></path>
+</g>
+</svg>

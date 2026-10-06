@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 270" width="580" height="270" role="img" aria-label="Admission Module — Role-based admission API with merit-ranked shortlisting">
+<defs>
+  <linearGradient id="c-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e15"/><stop offset="1" stop-color="#05070c"/></linearGradient>
+  <linearGradient id="c-am" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f6c75b"/><stop offset="1" stop-color="#e09b25"/></linearGradient>
+  <filter id="c-b" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>.m{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+  @keyframes fade{0%,100%{opacity:.25}50%{opacity:1}}
+  @keyframes rise{from{transform:scaleY(.2)}to{transform:scaleY(1)}}
+  @keyframes flow{from{stroke-dashoffset:40}to{stroke-dashoffset:0}}</style>
+</defs>
+<rect width="580" height="270" rx="10" fill="url(#c-bg)" stroke="#172030"/>
+<rect x="0" y="0" width="580" height="3" rx="1.5" fill="url(#c-am)" opacity="0.8"/>
+<text x="24" y="44" class="m" font-size="18" font-weight="700" letter-spacing="-0.2" fill="#eaf0f7">Admission Module</text>
+<text x="24" y="66" class="m" font-size="10" letter-spacing="1.6" fill="#7d8899">JavaScript · Express 5 · MongoDB · JWT</text>
+<text x="24" y="96" class="m" font-size="11.5" fill="#97a3b4">Role-based admission API with merit-ranked shortlisting</text>
+<path d="M24 112 H556" stroke="#141b25"/>
+
+<g transform="translate(24,128)">
+  <g class="m" font-size="9.5">
+    <g fill="#0e1622" stroke="#243247"><rect x="0" y="4" width="164" height="26" rx="5"/><rect x="0" y="38" width="164" height="26" rx="5"/><rect x="0" y="72" width="164" height="26" rx="5"/></g>
+    <g fill="#f0b429"><text x="12" y="21">applicant</text><text x="12" y="55">POC</text><text x="12" y="89">super admin</text></g>
+    <g fill="#5d6977" font-size="8.5"><text x="96" y="21">3 routes</text><text x="96" y="55">5 routes</text><text x="96" y="89">15 routes</text></g>
+  </g>
+  <g stroke="#223044" fill="none"><path d="M164 17 H206 V51"/><path d="M164 51 H206"/><path d="M164 85 H206 V51"/></g>
+  <rect x="206" y="30" width="130" height="42" rx="6" fill="#101a26" stroke="#2c3b50"/>
+  <text x="271" y="48" text-anchor="middle" class="m" font-size="10" font-weight="700" fill="#e8edf4">JWT + Joi</text>
+  <text x="271" y="63" text-anchor="middle" class="m" font-size="8.5" fill="#64707f">auth · validation</text>
+  <g stroke="#223044" fill="none" stroke-dasharray="4 4" style="animation:flow 1.6s linear infinite"><path d="M336 51 H382"/></g>
+  <rect x="382" y="30" width="150" height="42" rx="6" fill="#0d1620" stroke="#2a3a4e"/>
+  <text x="457" y="48" text-anchor="middle" class="m" font-size="10" font-weight="700" fill="#58c7d8">MERIT SORT</text>
+  <text x="457" y="63" text-anchor="middle" class="m" font-size="8.5" fill="#5d6977">score, then class-12 %</text>
+  <text x="0" y="122" class="m" font-size="9" letter-spacing="2" fill="#44505f">24 ENDPOINTS · 8 DOCUMENT UPLOADS · EMAIL VERIFIED SIGNUP</text>
+</g>
+</svg>
