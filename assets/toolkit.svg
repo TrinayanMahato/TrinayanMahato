@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Toolkit across backend, AI agents, frontend, data, infrastructure and security">
+<defs>
+  <linearGradient id="a-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090c13"/><stop offset="1" stop-color="#05070c"/></linearGradient>
+  <linearGradient id="a-f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e09b25"/><stop offset="1" stop-color="#f6c75b"/></linearGradient>
+  <linearGradient id="a-c" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3f9fb4"/><stop offset="1" stop-color="#58c7d8"/></linearGradient>
+  <style>.m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  .g{transform-origin:left center;animation:grow 1.6s cubic-bezier(.2,.8,.2,1) forwards}</style>
+</defs>
+<rect width="1200" height="300" rx="10" fill="url(#a-bg)" stroke="#161e2a"/>
+<text x="36" y="32" class="m" font-size="10.5" letter-spacing="3" fill="#4e5a6b">TOOLKIT</text>
+<text x="1164" y="32" text-anchor="end" class="m" font-size="10.5" letter-spacing="2" fill="#3f4a5a">WHAT I REACH FOR</text>
+<path d="M36 46 H1164" stroke="#141b25"/>
+<g>
+  <text x="36" y="84" class="m" font-size="11" letter-spacing="1.4" fill="#aab5c4">BACKEND</text>
+  <rect x="176" y="74" width="280" height="6" rx="3" fill="#111926"/>
+  <rect class="g" x="176" y="74" width="258" height="6" rx="3" fill="url(#a-f)" style="animation-delay:0.00s"/>
+  <text x="468" y="84" class="m" font-size="10" fill="#5e6a7a">92</text>
+  <text x="490" y="84" class="m" font-size="10.5" fill="#75808f">Node.js · Express · FastAPI · REST · JWT</text>
+</g>
+<g>
+  <text x="36" y="118" class="m" font-size="11" letter-spacing="1.4" fill="#aab5c4">AI / AGENTS</text>
+  <rect x="176" y="108" width="280" height="6" rx="3" fill="#111926"/>
+  <rect class="g" x="176" y="108" width="241" height="6" rx="3" fill="url(#a-f)" style="animation-delay:0.08s"/>
+  <text x="468" y="118" class="m" font-size="10" fill="#5e6a7a">86</text>
+  <text x="490" y="118" class="m" font-size="10.5" fill="#75808f">LangGraph · OpenAI · Gemini · ChromaDB · RAG</text>
+</g>
+<g>
+  <text x="36" y="152" class="m" font-size="11" letter-spacing="1.4" fill="#aab5c4">FRONTEND</text>
+  <rect x="176" y="142" width="280" height="6" rx="3" fill="#111926"/>
+  <rect class="g" x="176" y="142" width="230" height="6" rx="3" fill="url(#a-f)" style="animation-delay:0.16s"/>
+  <text x="468" y="152" class="m" font-size="10" fill="#5e6a7a">82</text>
+  <text x="490" y="152" class="m" font-size="10.5" fill="#75808f">React 19 · Next.js · TypeScript · Tailwind · shadcn/ui</text>
+</g>
+<g>
+  <text x="36" y="186" class="m" font-size="11" letter-spacing="1.4" fill="#aab5c4">DATA</text>
+  <rect x="176" y="176" width="280" height="6" rx="3" fill="#111926"/>
+  <rect class="g" x="176" y="176" width="224" height="6" rx="3" fill="url(#a-f)" style="animation-delay:0.24s"/>
+  <text x="468" y="186" class="m" font-size="10" fill="#5e6a7a">80</text>
+  <text x="490" y="186" class="m" font-size="10.5" fill="#75808f">MongoDB · Mongoose · Prisma · Redis · Elasticsearch</text>
+</g>
+<g>
+  <text x="36" y="220" class="m" font-size="11" letter-spacing="1.4" fill="#aab5c4">INFRA</text>
+  <rect x="176" y="210" width="280" height="6" rx="3" fill="#111926"/>
+  <rect class="g" x="176" y="210" width="202" height="6" rx="3" fill="url(#a-c)" style="animation-delay:0.32s"/>
+  <text x="468" y="220" class="m" font-size="10" fill="#5e6a7a">72</text>
+  <text x="490" y="220" class="m" font-size="10.5" fill="#75808f">Docker · Kubernetes · NGINX · Vercel · GitHub Actions</text>
+</g>
+<g>
+  <text x="36" y="254" class="m" font-size="11" letter-spacing="1.4" fill="#aab5c4">SECURITY</text>
+  <rect x="176" y="244" width="280" height="6" rx="3" fill="#111926"/>
+  <rect class="g" x="176" y="244" width="185" height="6" rx="3" fill="url(#a-c)" style="animation-delay:0.40s"/>
+  <text x="468" y="254" class="m" font-size="10" fill="#5e6a7a">66</text>
+  <text x="490" y="254" class="m" font-size="10.5" fill="#75808f">Wazuh · pfctl · CIS · Joi validation</text>
+</g><path d="M36 270 H1164" stroke="#141b25"/><text x="36" y="292" class="m" font-size="9" letter-spacing="2" fill="#3b4553">SELF-ASSESSED DEPTH · UPDATED AS THE WORK CHANGES</text>
+</svg>

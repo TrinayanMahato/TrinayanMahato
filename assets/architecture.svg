@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190" role="img" aria-label="Agent pipeline: JD in, extract, embed, post, wait, human gate, shortlist, schedule">
+<defs>
+  <linearGradient id="p-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090c13"/><stop offset="1" stop-color="#05070c"/></linearGradient>
+  <linearGradient id="p-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101723"/><stop offset="1" stop-color="#0b111a"/></linearGradient>
+  <filter id="p-b" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
+  <style>.m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+  @keyframes lift{0%,100%{opacity:.5}50%{opacity:1}}</style>
+</defs>
+<rect width="1200" height="190" rx="10" fill="url(#p-bg)" stroke="#161e2a"/>
+<text x="34" y="30" class="m" font-size="10.5" letter-spacing="3" fill="#4e5a6b">AGENT PIPELINE — STATEFUL, INTERRUPTIBLE</text>
+<text x="1166" y="30" text-anchor="end" class="m" font-size="10.5" letter-spacing="2" fill="#3f4a5a">LANGGRAPH + CHECKPOINTER</text>
+<path d="M34 44 H1166" stroke="#141b25"/>
+
+<g>
+  <rect x="34.0" y="78" width="130.1" height="52" rx="6" fill="url(#p-fill)" stroke="#1d2735"/>
+  <rect x="34.0" y="78" width="130.1" height="2" rx="1" fill="#2c3b50" opacity="0.8" style="animation:lift 3.4s ease-in-out 0.0s infinite"/>
+  <text x="99.1" y="102" text-anchor="middle" class="m" font-size="11" font-weight="700" letter-spacing="1.2" fill="#e3e9f1">JD IN</text>
+  <text x="99.1" y="119" text-anchor="middle" class="m" font-size="9" letter-spacing="0.5" fill="#64707f">pdf parse</text>
+</g><path d="M164.1 104 H177.1" stroke="#222d3c"/>
+<g>
+  <rect x="177.1" y="78" width="130.1" height="52" rx="6" fill="url(#p-fill)" stroke="#1d2735"/>
+  <rect x="177.1" y="78" width="130.1" height="2" rx="1" fill="#2c3b50" opacity="0.8" style="animation:lift 3.4s ease-in-out 0.4s infinite"/>
+  <text x="242.2" y="102" text-anchor="middle" class="m" font-size="11" font-weight="700" letter-spacing="1.2" fill="#e3e9f1">EXTRACT</text>
+  <text x="242.2" y="119" text-anchor="middle" class="m" font-size="9" letter-spacing="0.5" fill="#64707f">top 5 reqs</text>
+</g><path d="M307.2 104 H320.2" stroke="#222d3c"/>
+<g>
+  <rect x="320.2" y="78" width="130.1" height="52" rx="6" fill="url(#p-fill)" stroke="#1d2735"/>
+  <rect x="320.2" y="78" width="130.1" height="2" rx="1" fill="#2c3b50" opacity="0.8" style="animation:lift 3.4s ease-in-out 0.8s infinite"/>
+  <text x="385.3" y="102" text-anchor="middle" class="m" font-size="11" font-weight="700" letter-spacing="1.2" fill="#e3e9f1">EMBED</text>
+  <text x="385.3" y="119" text-anchor="middle" class="m" font-size="9" letter-spacing="0.5" fill="#64707f">chroma</text>
+</g><path d="M450.4 104 H463.4" stroke="#222d3c"/>
+<g>
+  <rect x="463.4" y="78" width="130.1" height="52" rx="6" fill="url(#p-fill)" stroke="#1d2735"/>
+  <rect x="463.4" y="78" width="130.1" height="2" rx="1" fill="#2c3b50" opacity="0.8" style="animation:lift 3.4s ease-in-out 1.2s infinite"/>
+  <text x="528.4" y="102" text-anchor="middle" class="m" font-size="11" font-weight="700" letter-spacing="1.2" fill="#e3e9f1">POST</text>
+  <text x="528.4" y="119" text-anchor="middle" class="m" font-size="9" letter-spacing="0.5" fill="#64707f">linkedin</text>
+</g><path d="M593.5 104 H606.5" stroke="#222d3c"/>
+<g>
+  <rect x="606.5" y="78" width="130.1" height="52" rx="6" fill="url(#p-fill)" stroke="#1d2735"/>
+  <rect x="606.5" y="78" width="130.1" height="2" rx="1" fill="#2c3b50" opacity="0.8" style="animation:lift 3.4s ease-in-out 1.6s infinite"/>
+  <text x="671.6" y="102" text-anchor="middle" class="m" font-size="11" font-weight="700" letter-spacing="1.2" fill="#e3e9f1">WAIT</text>
+  <text x="671.6" y="119" text-anchor="middle" class="m" font-size="9" letter-spacing="0.5" fill="#64707f">app window</text>
+</g><path d="M736.6 104 H749.6" stroke="#222d3c"/>
+<g>
+  <rect x="749.6" y="78" width="130.1" height="52" rx="6" fill="#101a26" stroke="#4a3a12"/>
+  <rect x="749.6" y="78" width="130.1" height="2" rx="1" fill="#f0b429" opacity="0.8" style="animation:lift 3.4s ease-in-out 2.0s infinite"/>
+  <text x="814.7" y="102" text-anchor="middle" class="m" font-size="11" font-weight="700" letter-spacing="1.2" fill="#f0b429">NOTIFY</text>
+  <text x="814.7" y="119" text-anchor="middle" class="m" font-size="9" letter-spacing="0.5" fill="#64707f">human gate</text>
+</g><path d="M879.8 104 H892.8" stroke="#222d3c"/>
+<g>
+  <rect x="892.8" y="78" width="130.1" height="52" rx="6" fill="url(#p-fill)" stroke="#1d2735"/>
+  <rect x="892.8" y="78" width="130.1" height="2" rx="1" fill="#2c3b50" opacity="0.8" style="animation:lift 3.4s ease-in-out 2.4s infinite"/>
+  <text x="957.8" y="102" text-anchor="middle" class="m" font-size="11" font-weight="700" letter-spacing="1.2" fill="#e3e9f1">SHORTLIST</text>
+  <text x="957.8" y="119" text-anchor="middle" class="m" font-size="9" letter-spacing="0.5" fill="#64707f">vector rank</text>
+</g><path d="M1022.9 104 H1035.9" stroke="#222d3c"/>
+<g>
+  <rect x="1035.9" y="78" width="130.1" height="52" rx="6" fill="url(#p-fill)" stroke="#1d2735"/>
+  <rect x="1035.9" y="78" width="130.1" height="2" rx="1" fill="#2c3b50" opacity="0.8" style="animation:lift 3.4s ease-in-out 2.8s infinite"/>
+  <text x="1100.9" y="102" text-anchor="middle" class="m" font-size="11" font-weight="700" letter-spacing="1.2" fill="#e3e9f1">SCHEDULE</text>
+  <text x="1100.9" y="119" text-anchor="middle" class="m" font-size="9" letter-spacing="0.5" fill="#64707f">interviews</text>
+</g>
+<path id="p-rail" d="M34 104 H1166" fill="none" stroke="none"/>
+<circle r="3" fill="#f6c75b" filter="url(#p-b)">
+  <animateMotion dur="8s" repeatCount="indefinite"><mpath href="#p-rail"/></animateMotion>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.96;1" dur="8s" repeatCount="indefinite"/></circle>
+<path d="M814.7 134 V158 H242.2 V134" fill="none" stroke="#4a3a12" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="528.4" y="172" text-anchor="middle" class="m" font-size="9" letter-spacing="2" fill="#6b5a2a">REJECTED JD LOOPS BACK</text>
+<circle cx="814.7" cy="78" r="3.4" fill="#f0b429" filter="url(#p-b)"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
+</svg>

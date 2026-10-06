@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="Built to be read, run and handed over">
+<defs>
+  <linearGradient id="f-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05070c" stop-opacity="0"/><stop offset="1" stop-color="#080b11"/></linearGradient>
+  <linearGradient id="f-l" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f0b429" stop-opacity="0"/><stop offset="0.5" stop-color="#f0b429" stop-opacity="0.45"/><stop offset="1" stop-color="#f0b429" stop-opacity="0"/></linearGradient>
+  <filter id="f-b" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="2.6"/></filter>
+  <style>.m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+  @keyframes bp{0%,100%{opacity:.3}50%{opacity:1}}</style>
+</defs>
+<rect width="1200" height="150" fill="url(#f-bg)"/>
+<path d="M0 30 H1200" stroke="#121924"/><path d="M0 30 H1200" stroke="url(#f-l)"/>
+<circle cy="30" r="2.6" fill="#f6c75b" filter="url(#f-b)">
+  <animate attributeName="cx" values="-20;1220" dur="7s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" dur="7s" repeatCount="indefinite"/></circle>
+<text x="600" y="76" text-anchor="middle" class="m" font-size="12.5" letter-spacing="1.2" fill="#8b96a8">Every repository here is meant to be cloned, read and run by someone who is not me.</text>
+<text x="600" y="104" text-anchor="middle" class="m" font-size="10" letter-spacing="3" fill="#3f4a5a">DESIGNED · BUILT · DOCUMENTED</text>
+<g transform="translate(600,126)">
+  <circle cx="-96" cy="-4" r="2.6" fill="#f0b429" style="animation:bp 2.6s ease-in-out infinite"/>
+  <circle cx="0" cy="-4" r="2.6" fill="#58c7d8" style="animation:bp 2.6s ease-in-out .8s infinite"/>
+  <circle cx="96" cy="-4" r="2.6" fill="#f0b429" style="animation:bp 2.6s ease-in-out 1.6s infinite"/>
+</g>
+</svg>
